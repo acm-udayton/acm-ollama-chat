@@ -14,7 +14,7 @@ messages = []
 
 def chat_with_ollama():
     print("-" * 50)
-    print(f"Welcome to ({ALLOWED_MODEL})!")
+    print(f"Welcome to {ALLOWED_MODEL}!")
     print("Type 'exit' or 'quit' to end the session.")
     print("-" * 50)
 

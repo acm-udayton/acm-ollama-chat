@@ -18,3 +18,11 @@ docker update --restart unless-stopped ollama
 # Access lama from command line when it is inside of docker:
 docker exec -it ollama ollama run llama3:8b
 
+# Configure for public use. 
+# Put files in /opt/ollama-chat
+sudo python3 -m venv .venv
+sudo chown -R YOUR_USERNAME:YOUR_USERNAME /opt/ollama-chat/
+chmod +x /opt/ollama-chat/ollama_chat.sh
+sudo ln -s /opt/ollama-chat/ollama_chat.sh /usr/local/bin/ollama-chat
+# Now you can run "ollama-chat" from any user account on the server to talk with ollama.
+

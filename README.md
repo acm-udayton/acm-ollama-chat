@@ -113,12 +113,12 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation 
 
-### Fresh install (not needed on ACM server)
+### Fresh global install (not needed on ACM server)
 
 1. Clone the repo (on Debian filesystem)
    ```sh
    mkdir -p /opt/ollama-chat
-   cd /opt/
+   cd /opt/ollama-chat
    git clone https://github.com/acm-udayton/acm-ollama-chat/repo_name.git .
    ```
 2. Install Python packages in a virtual environment
@@ -137,7 +137,7 @@ This is an example of how to list things you need to use the software and how to
    sudo ln -s /opt/ollama-chat/ollama_chat.sh /usr/local/bin/ollama-chat
    ```
 
-### Update an existing installation (should be owner of the initial install)
+### Update an existing global installation (should be owner of the initial install)
 
 1. Update the source code version from the repo
    ```sh
@@ -157,6 +157,28 @@ This is an example of how to list things you need to use the software and how to
    chmod +x /opt/ollama-chat/ollama_chat.sh
    ```
 
+### Local/development installation 
+
+1. Clone the repo (on Debian filesystem)
+   ```sh
+   mkdir -p ~/ollama-chat
+   cd ~/ollama-chat
+   git clone https://github.com/acm-udayton/acm-ollama-chat/repo_name.git .
+   ```
+2. Install Python packages in a virtual environment
+   ```sh
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+3. Ensure correct file permissions
+   ```sh
+   chown -R <your_username>:<your_username> /opt/ollama-chat/
+   ```
+4. Make the script executable as a command
+   ```sh
+   chmod +x ~/ollama-chat/ollama_chat.sh
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,7 +187,14 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To start a conversation via Ollama Chat, log into your account on the University of Dayton ACM server and run the command `ollama-chat`.
+To start a conversation via Ollama Chat, log into your account on the University of Dayton ACM server and run the command for your desired installation:
+
+### Global
+ `ollama-chat`
+
+### Local/development
+`~/ollama-chat/ollama_chat.sh`
+
 
 When you're done, use 'exit' or 'quit' to end the Ollama Chat instance.
 
@@ -204,7 +233,8 @@ Don't forget to give the project a star! Thanks again!
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+5. Test on a [local/development](#localdevelopment-installation) installation on the ACM server
+6. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

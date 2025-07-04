@@ -73,7 +73,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Ollama Chat Screen Shot][product-screenshot]]([product-screenshot])
+[![Ollama Chat Screen Shot][product-screenshot]](#usage)
 
 This project provides the source code for a CLI to interact with a local Ollama LLM installed on the University of Dayton ACM chapter's server. Currently we are running llama3:8b as our LLM of choice, providing a balance between function and efficiency.
 
@@ -239,7 +239,7 @@ Project Link: [https://github.com/acm-udayton/acm-ollama-chat](https://github.co
 [issues-url]: https://github.com/acm-udayton/acm-ollama-chat/issues
 [license-shield]: https://img.shields.io/github/license/acm-udayton/acm-ollama-chat.svg?style=for-the-badge
 [license-url]: https://github.com/acm-udayton/acm-ollama-chat/blob/main/LICENSE
-[product-screenshot]: images/docs-project-screenshot.png
+[product-screenshot]: https://github.com/acm-udayton/acm-ollama-chat/blob/main/images/docs-project-screenshot.jpg?raw=true
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://python.org
 [Docker]: https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge

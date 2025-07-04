@@ -224,6 +224,11 @@ See the [open issues](https://github.com/acm-udayton/acm-ollama-chat/issues) for
 <!-- CONTRIBUTING -->
 ## Contributing
 
+**PLEASE NOTE:
+Only contributions by ACM @ UD members (past and present) will be accepted to this repository!
+<br/>
+_If that doesn't include you, feel free to fork the repo and make your own changes._**
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".

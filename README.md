@@ -205,7 +205,7 @@ When you're done, use 'exit' or 'quit' to end the Ollama Chat instance.
 <!-- ROADMAP -->
 ## Roadmap
 
-- Implement a "help" menu. ([View issue](https://github.com/acm-udayton/acm-ollama-chat/issues/2))
+- Implement a "help" menu. ([View issue](https://github.com/acm-udayton/acm-ollama-chat/issues/9))
 - Add username to set context. ([View issue](https://github.com/acm-udayton/acm-ollama-chat/issues/1))
 - Implement RAG for custom knowledge base. ([View issue](https://github.com/acm-udayton/acm-ollama-chat/issues/3))
     - Basic RAG setup. ([View issue](https://github.com/acm-udayton/acm-ollama-chat/issues/6))

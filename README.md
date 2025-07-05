@@ -98,7 +98,7 @@ All users on the server have access to the CLI tool, and active development in t
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Prerequisites (already completed on ACM server)
 
 This is an example of how to list things you need to use the software and how to install them.
 * Set up an instance of the Ollama within a Docker container.
